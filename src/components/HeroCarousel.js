@@ -47,7 +47,7 @@ const HeroCarousel = () => {
         <div className="video-container">
           <video
             ref={videoRef}
-            src="./assets/videos/video.mov"
+            src="./assets/videos/homeVideo.mp4"
             autoPlay
             muted
             className="background-video"
