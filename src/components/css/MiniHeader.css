@@ -1,0 +1,24 @@
+.section-mini-header {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin: 4rem 4.5rem;
+}
+
+.section-mini-header p {
+  color: var(--pink-1);
+  font-weight: 600;
+}
+
+.section-mini-header p.mini-header-text {
+  font-family: "Forgotten Futurist", Helvetica;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-style: italic;
+  letter-spacing: 0.5rem;
+}
+
+.section-mini-header.right {
+  display: flex;
+  justify-content: flex-end;
+}

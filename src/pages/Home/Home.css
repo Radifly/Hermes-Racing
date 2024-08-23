@@ -1,0 +1,52 @@
+/* —————————————————————————————————— */
+/* MEET THE TEAM SECTION */
+/* —————————————————————————————————— */
+
+.meet-team-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  object-fit: contain;
+}
+
+.team-members-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: calc(100% / 6);
+  object-fit: cover;
+  /* scale: 1.5; */
+  transition: all 750ms ease;
+  filter: brightness(40%) saturate(250%) grayscale(75%);
+  box-shadow: 4px 4rem 4rem #00000050;
+}
+
+.image:hover {
+  scale: 1.15;
+  filter: brightness(100%) saturate(100%) grayscale(0%);
+}
+
+/* —————————————————————————————————— */
+/* 3D MODEL SECTION */
+/* —————————————————————————————————— */
+.car-model-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  grid-template-areas:
+    "miniheader miniheader"
+    "content1 content2"
+    "neonline neonline";
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.car-model-section .section-mini-header {
+  grid-area: miniheader;
+}

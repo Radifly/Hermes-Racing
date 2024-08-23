@@ -1,0 +1,56 @@
+.sponsors-slider {
+  width: 80%;
+  height: 50rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.sponsors-slider .carousel-cell {
+  background: var(--frosted-pink);
+  border: 0.2rem solid var(--collection-1-frosted-pink);
+  border-radius: 1rem;
+  padding: 7.5rem 5rem;
+}
+
+.carousel-content {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 30rem;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 1rem;
+}
+
+.text-group {
+  max-width: 60rem;
+}
+
+.subtitle {
+  font-size: 3em;
+  margin: 0 0 1rem;
+}
+
+.body-text {
+  font-size: 2.4em;
+  margin: 0;
+}
+
+.sponsors-slider .flickity-page-dot {
+  width: 4rem;
+  height: 0.8rem;
+  opacity: 0.5;
+  background: #9090909d;
+  margin: 0 0.5rem;
+  border-radius: 3rem;
+  transition: all 0.3s, height 0.3s;
+}
+
+.sponsors-slider .flickity-page-dot.is-selected {
+  opacity: 1;
+  width: 6rem;
+  background: #ffffff9d;
+}

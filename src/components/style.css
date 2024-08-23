@@ -1,0 +1,178 @@
+.frame {
+  align-items: flex-start;
+  display: flex;
+  height: 509px;
+  justify-content: space-between;
+  position: relative;
+  width: 1512px;
+}
+
+.frame .group {
+  height: 460px;
+  position: relative;
+  transform: rotate(180deg);
+  width: 113px;
+}
+
+.frame .overlap-group {
+  height: 460px;
+  position: relative;
+}
+
+.frame .subtract {
+  height: 460px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 113px;
+}
+
+.frame .right {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(1.81, 1.81, 1.81) 100%
+  );
+  border-radius: 15px 0px 0px 15px;
+  height: 460px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 113px;
+}
+
+.frame .social-card {
+  background-color: var(--frosted-pink);
+  border-radius: 15px;
+  height: 460px;
+  position: relative;
+  width: 350px;
+}
+
+.frame .overlap {
+  background-image: url(./rectangle-35.svg);
+  background-size: 100% 100%;
+  height: 442px;
+  left: 9px;
+  position: relative;
+  top: 9px;
+  width: 333px;
+}
+
+.frame .rectangle {
+  height: 442px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 333px;
+}
+
+.frame .div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 12px;
+  position: absolute;
+  top: 398px;
+  width: 314px;
+}
+
+.frame .text-wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #ffffff;
+  display: -webkit-box;
+  font-family: "Gemunu Libre-Bold", Helvetica;
+  font-size: 27.2px;
+  font-weight: 700;
+  letter-spacing: 2.18px;
+  line-height: normal;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  width: 231px;
+}
+
+.frame .vector {
+  height: 36px;
+  position: relative;
+  width: 35.83px;
+}
+
+.frame .overlap-2 {
+  background-image: url(./image.svg);
+  background-size: 100% 100%;
+  height: 442px;
+  left: 9px;
+  position: relative;
+  top: 9px;
+  width: 333px;
+}
+
+.frame .img {
+  height: 442px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 333px;
+}
+
+.frame .vector-2 {
+  height: 36px;
+  position: relative;
+  width: 34.84px;
+}
+
+.frame .overlap-3 {
+  background-image: url(./rectangle-35-2.svg);
+  background-size: 100% 100%;
+  height: 444px;
+  left: 9px;
+  position: relative;
+  top: 7px;
+  width: 333px;
+}
+
+.frame .rectangle-2 {
+  height: 444px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 333px;
+}
+
+.frame .div-2 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 12px;
+  position: absolute;
+  top: 400px;
+  width: 314px;
+}
+
+.frame .vector-3 {
+  height: 36px;
+  position: relative;
+  width: 47.78px;
+}
+
+.frame .right-wrapper {
+  background-image: url(./subtract-2.svg);
+  background-size: 100% 100%;
+  height: 460px;
+  position: relative;
+  width: 113px;
+}
+
+.frame .right-2 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(1.81, 1.81, 1.81) 100%
+  );
+  border-radius: 15px 0px 0px 15px;
+  height: 460px;
+}

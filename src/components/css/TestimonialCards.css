@@ -1,0 +1,38 @@
+.testimonials-container {
+  margin: 0 auto;
+  margin-top: 7.5rem;
+  padding: 0.5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.testimonial {
+  background: rgba(137, 137, 137, 0.3);
+  backdrop-filter: blur(1rem);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out,
+    border 0.5s ease-in-out;
+}
+
+.testimonial:hover {
+  border-color: var(--pink-2);
+  transform: scale(1.05);
+}
+
+.quote {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: var(--text-default);
+}
+
+.author {
+  font-style: italic;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--pink-2);
+}

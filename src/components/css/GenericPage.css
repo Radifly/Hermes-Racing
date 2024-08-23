@@ -1,0 +1,66 @@
+.section-container {
+  margin: 15rem 12.5rem;
+  /* margin-bottom: 20rem; */
+  margin-bottom: 0rem;
+  display: grid;
+  grid-template-areas:
+    "miniheader miniheader"
+    "content1 content2"
+    "neonline neonline";
+  gap: 7.5rem;
+  row-gap: 5rem;
+  align-items: center;
+}
+
+.feature {
+  background-color: var(--image-placeholder);
+  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 1.4rem;
+  height: 48rem;
+  width: 60rem;
+  transition: all 300ms ease-in-out;
+  object-fit: cover;
+  position: relative;
+  border: none;
+}
+
+.feature:hover {
+  scale: 1.05;
+  transform: translate(-1rem, -1rem);
+  box-shadow: 2rem 2rem 3rem #eb6d9175;
+}
+
+iframe.feature {
+  height: 70rem;
+}
+
+.section-container.page--left > .feature:hover {
+  transform: translate(1rem, 1rem);
+  box-shadow: -2rem -2rem 3rem #eb6d9175;
+}
+
+.section-container.page--left .text-container {
+  order: 2;
+}
+
+.section-container.page--left .feature {
+  order: 1;
+}
+
+.section-container.page--right .text-container {
+  order: 1;
+}
+
+.section-container.page--right .feature {
+  order: 2;
+}
+
+.section-container .section-mini-header {
+  grid-area: miniheader;
+  margin: 0;
+}
+
+.section-container .neon-lines {
+  grid-area: neonline;
+  position: relative;
+}

@@ -1,0 +1,16 @@
+:root {
+  --card-dark: rgba(40, 40, 40, 1);
+  --card-light: rgba(55, 55, 55, 1);
+  --carrousel-selected: rgba(189, 189, 189, 1);
+  --carrousel-unselected: rgba(65, 65, 65, 1);
+  --collection-1-frosted-pink: rgba(239, 115, 149, 0.25);
+  --frosted-pink: rgba(239, 115, 149, 0.48);
+  --image-placeholder: rgba(12, 12, 12, 1);
+  --background: rgba(18, 18, 18, 1);
+  --pink-1: rgba(255, 141, 165, 1);
+  --pink-2: rgba(235, 109, 144, 1);
+  --pink-3: rgba(206, 90, 135, 1);
+  --social-cards-inside: rgba(17, 17, 17, 1);
+  --social-cards-outside: rgba(32, 32, 32, 1);
+  --text-default: rgba(255, 255, 255, 1);
+}
