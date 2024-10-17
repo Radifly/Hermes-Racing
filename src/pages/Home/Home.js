@@ -81,23 +81,6 @@ const Home = () => {
       </section>
       <NeonLines position="right" />
 
-      <section className="car-model-section ">
-        <MiniHeader section="Team Car" number="3" left />
-        <div className="text-container">
-          <h2 className="text-header">Team Car</h2>
-          <p className="text">
-            Our car, Talaria, remains under wraps for now, but stay tuned for
-            its grand reveal prior ott the World Finals! ⁤⁤Designed by our very
-            own talented and skilled engineer, Raphaël Brice, Talaria is built
-            to meet the toughest regulations and push the boundaries beyond the
-            limits of this competition. ⁤⁤We're driven to bring home a victory
-            for the UAE. ⁤⁤Exciting times are ahead!
-          </p>
-        </div>
-        {/* <video src={mainVideo}></video> */}
-      </section>
-      <NeonLines position="left" />
-
       <section className="social-media">
         <br />
         <br />
